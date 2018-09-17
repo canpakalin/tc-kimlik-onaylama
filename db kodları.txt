@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `kullanicilar` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `isim` text NOT NULL,
+  `mail` text NOT NULL,
+  `tcno` text NOT NULL,
+  `sifre` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
